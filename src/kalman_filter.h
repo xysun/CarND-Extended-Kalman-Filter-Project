@@ -64,6 +64,8 @@ public:
    */
   void UpdateEKF(const Eigen::VectorXd &z);
 
+  void UpdateShared(const Eigen::VectorXd &z, const Eigen::VectorXd &y);
+
 };
 
 #endif /* KALMAN_FILTER_H_ */
